@@ -7,5 +7,5 @@ app.get("/", function(req, res) {
 });
 
 app.listen(80, function() {
-  console.log("server running on 8080");
+  console.log("server running on 80");
 }); //the server object listens on port 8080
