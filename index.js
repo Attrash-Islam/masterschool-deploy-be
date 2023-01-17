@@ -24,4 +24,6 @@ app.get("/", function(req, res) {
   res.send({ data: [1,2,3] });
 });
 
-module.exports = app;
+app.listen(80, () => {
+  console.log('http://localhost');
+})
